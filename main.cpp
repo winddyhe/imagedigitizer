@@ -10,9 +10,10 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     QImageDigitizer w;
+    w.show();
+
 //    QScrollPixmapWidget w("F:/Nokia/project/hh/imagedigitizer-build-desktop"
 //                          "-Qt_4_7_4_for_Desktop_-_MinGW_4_4__Qt_SDK__Debug/srceenshot/Screenshot_5.jpg");
-    w.show();
 
 //    QPixmapWidget *w = new QPixmapWidget("F:/Nokia/project/hh/imagedigitizer/images/open.png");
 //    QScrollArea scrollArea;
